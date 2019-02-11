@@ -1,5 +1,6 @@
 Goals: To analyze the ADAM grdient descent algorithm performance with different hyperparameters
 Code Structure:
-ADAM gradient descent: Implements the ADAM algorithm
-Get_Loss_Function: Loss function for the test
-Display_Plots: Display plots for the outcome
+Adam_Gradient_convex_ICLR: Implements the ADAM algorithm. It is the main function.
+Get_loss_function_value_convex: Loss function for the test. It is executed when user selects 'convex' for the main function input.
+Get_loss_function_value_iclr: Loss function for the test. It is executed when user selects 'ICLR' for the main function input.
+Plot_Store_Data: Display plots for the outcome and stores it in the Results folder. 
